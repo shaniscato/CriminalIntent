@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/20201015_CriminalIntent.iml" filepath="$PROJECT_DIR$/20201015_CriminalIntent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/20201015_CriminalIntent.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/20201015_CriminalIntent.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="20201015_CriminalIntent/app" />
+    </modules>
+  </component>
+</project>

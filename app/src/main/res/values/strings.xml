@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CriminalIntent</string>
+    <string name="crime_title_hint">Enter a title for the crime.</string>
+    <string name="crime_title_label">Title</string>
+    <string-array name="crimes">
+        <item>Robbery</item>
+        <item>Harrassment</item>
+        <item>Driving under the Influence</item>
+        <item>Arson</item>
+        <item>Burglary</item>
+        <item>Fraud</item>
+    </string-array>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved</string>
+    <string name="date_picker_title">Date of crime:</string>
+    <string name="time_picker_title">Time of crime:</string>
+    <string name="new_crime">New Crime</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d crimes</string>
+    <string name="crime_description">Enter a description of the crime</string>
+    <string name="solved_description">Enter a description of how this was solved</string>
+    <string name="date_time_title">Enter the date and time of the incident</string>
+</resources>
