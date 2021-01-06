@@ -99,7 +99,10 @@ public class CrimeLab {
         values.put(UUID, crime.getId().toString());
         values.put(TITLE, crime.getTitle());
         values.put(DATE, crime.getDate().getTime());
+        values.put(CRIME_DESCRIPTION, crime.getDescription());
+        values.put(SOLVED_DESCRIPTION, crime.getDescription());
         values.put(SOLVED, crime.isSolved() ? 1 : 0);
+        values.put(SUSPECT, crime.getSuspect());
         return values;
     }
 

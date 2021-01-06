@@ -1,7 +1,5 @@
 package com.bignerdranch.android.criminalintent;
 
-import android.text.format.Time;
-
 import java.util.Date;
 import java.util.UUID;
 
@@ -9,9 +7,29 @@ public class Crime {
 
     private UUID mId;
     private String mTitle;
+
+    public String getDescription() {
+        return mDescription;
+    }
+
+    public void setDescription(String mDescription) {
+        this.mDescription = mDescription;
+    }
+
+    public String getSolvedDescription() {
+        return mSolvedDescription;
+    }
+
+    public void setSolvedDescription(String mSolvedDescription) {
+        this.mSolvedDescription = mSolvedDescription;
+    }
+
+    private String mDescription;
+    private String mSolvedDescription;
     private Date mDate;
-    private Time mTime;
+    private Date mTime;
     private boolean mSolved;
+    private String mSuspect;
 
     public Crime() {
         this(UUID.randomUUID());
@@ -22,7 +40,7 @@ public class Crime {
     public Crime(UUID id) {
         mId = id;
         mDate = new Date();
-        mTime = new Time();
+        // mTime = new Date();
     }
 
     public UUID getId() {
@@ -53,10 +71,18 @@ public class Crime {
         mSolved = solved;
     }
 
-    public Time getTime() {
+    public Date getTime() {
         return mTime;
     }
-    public void setTime(Time mTime) {
+
+    public void setTime(Date mTime) {
         this.mTime = mTime;
+    }
+
+    public String getSuspect(){
+        return mSuspect;
+    }
+    public void setSuspect(String suspect) {
+        mSuspect = suspect;
     }
 }

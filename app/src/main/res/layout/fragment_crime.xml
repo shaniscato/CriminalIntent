@@ -36,20 +36,25 @@
         style="?android:listSeparatorTextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/crime_details_label"/>
+        android:text="@string/crime_description_label"/>
 
     <EditText
         android:id="@+id/crime_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/crime_description"
-        />
-    <EditText
-        android:id="@+id/solve_description"
+        android:hint="@string/crime_description"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/solved_description"
-        />
+        android:text="@string/crime_solve_label"/>
+
+    <EditText
+        android:id="@+id/solved_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/solved_description"/>
 
     <TextView
         style="?android:listSeparatorTextViewStyle"

@@ -10,15 +10,26 @@
         <item>Burglary</item>
         <item>Fraud</item>
     </string-array>
-    <string name="crime_details_label">Details</string>
+    <string name="crime_description_label">Describe the Crime:</string>
+    <string name="crime_solve_label">Describe how it was solved:</string>
     <string name="crime_solved_label">Solved</string>
     <string name="date_picker_title">Date of crime:</string>
     <string name="time_picker_title">Time of crime:</string>
     <string name="new_crime">New Crime</string>
-    <string name="show_subtitle">Show Subtitle</string>
-    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="show_subtitle">Show # of Crimes</string>
+    <string name="hide_subtitle">Hide # of Crimes</string>
     <string name="subtitle_format">%1$d crimes</string>
     <string name="crime_description">Enter a description of the crime</string>
     <string name="solved_description">Enter a description of how this was solved</string>
     <string name="date_time_title">Enter the date and time of the incident</string>
+    <string name="delete_crime">delete</string>
+    <string name="delete">Delete</string>
+    <string name="crime_report">%1$s! Crime discovered on %2$s. %3$s, and %4$s
+ </string>
+    <string name="crime_report_solved">Solved</string>
+    <string name="crime_report_unsolved">Not solved</string>
+    <string name="crime_report_no_suspect">No suspect.</string>
+    <string name="crime_report_suspect">Suspect: %s.</string>
+    <string name="crime_report_subject">CriminalIntent Crime Report</string>
+    <string name="send_report">Send report via</string>
 </resources>
